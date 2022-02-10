@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="audio-pics" id="playing" onclick="stopMusic()">
+        <img src="./eq1.gif" alt="">
+    </div>
+    <div class="audio-pics show" id="stopped" onclick="runBody()">
+        <img src="./eq2.jpg" alt="">
+    </div>
+
+    <div class="wrapper" onclick="runBody()">
+        <audio id="music" autoplay="true" controls="true" loop="true">
+            <source src="1.mp3" type="audio/mp3">
+        </audio>
+        <div class="toast" id="toast">
+            <p>Click Anywhere to enable voice</p>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+#music{display: none;}
+.audio-pics img{width: 100px;display: none;position: fixed;top: 20px;left: 20px;cursor: pointer;}
+.show img{display: block !important;}
+.wrapper{background-color: rgb(29, 93, 145);height: 80vh;}
+.toast{position: absolute;top: 20px;right: 20px;background-color: #fff;border-radius: 7px;padding: 15px;transition: .5s;font-size: 18px;opacity: 0;transform: translateY(-70px);}
+.toast p{margin: 0;}
+.showToast{opacity: 1;transform: translateY(0);}
